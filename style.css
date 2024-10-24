@@ -6,6 +6,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
@@ -35,4 +40,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.purpose {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
