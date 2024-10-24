@@ -2,11 +2,15 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     background-color: #1f2937;
     display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .header2 {
@@ -27,4 +31,8 @@ body {
 
 .footer {
     background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
