@@ -10,21 +10,71 @@ body {
 a {
     text-decoration: none;
     color: white;
+    padding: 20px;
+}
+
+img {
+    border-radius: 25px;   
 }
 
 .header {
     background-color: #1f2937;
     display: flex;
+    justify-content: center;
+    padding: 20px 150px;
     justify-content: space-between;
-    padding: 20px;
 }
 
 .header2 {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 450px;
+    align-content: center;
+    
+}
+
+.left-header {
+display: flex;
+flex-direction: column;
+height: 300px;
+width: 536.16px;
+gap: 20px;
+
+}
+
+.header-button {
+    display: flex;
+    background-color: #3882F6;
+    font-weight: 600;
+    border-radius: 9px;
+    padding: 12px;
+    width: 100px;
+    justify-content: center;
 }
 
 .content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px 150px 150px;
+    gap: 100px;
+}
 
+.images {
+    display: flex;
+    gap: 100px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
 }
 
 .content2 {
@@ -67,3 +117,7 @@ a {
     color: white;
 }
 
+.headerlinks {
+    display: flex;
+    margin-left: 30px;
+}
